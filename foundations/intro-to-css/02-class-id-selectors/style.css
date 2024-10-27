@@ -1,0 +1,19 @@
+.pinky{
+    background: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.pinky .big{
+    font-size: 24px;
+}
+
+#blueone{
+    color: blue;
+    font-size: 36px;
+}
+
+#greenone{
+    background: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
