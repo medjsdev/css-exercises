@@ -1,11 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outbox{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 body {
   height: 100vh;
-  margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  gap: 16px;
 }
+
+li, a{
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
+
 
 img {
   width: 600px;
@@ -16,6 +35,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 2px 15px;
 }
 
 input {
@@ -24,3 +44,51 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .left-links, .header .right-links {
+  display: flex;
+  gap: 16px;
+  margin: 10px;
+  padding: 0;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex-grow: 1;
+}
+
+.content .buttons{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  background-color: #F0FFFF;
+}
+
+.footer .left-links, .footer .right-links {
+  display: flex;
+  gap: 16px;
+  margin: 10px;
+  padding: 0;
+}
+
+
+.outbox{
+  display: flex;
+  flex-direction: column;
+}
+
